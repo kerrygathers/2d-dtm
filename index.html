@@ -6,13 +6,18 @@
   <title>2D DTM Online</title>
   <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
 
-  <style>
+<style>
     .image-container {
       position: absolute;
       z-index: 1000;
-      top: 140px;
-      right: 40px;   
+      top: 150px;
+      right: 110px;
+      overflow-y: hidden;
     }
+      
+      body {
+          overflow: hidden;
+      }
 
   </style>
 </head>
@@ -20,7 +25,7 @@
 <body>
 
   <div class="image-container">
-    <iframe src="http://gis.nyc.gov/taxmap/map.htm" height="740" width="1200" style="border:none;"></iframe>
+    <img src="./images/dtm.JPG" alt="2D DTM" height="550">
   </div>
 </body>
 
